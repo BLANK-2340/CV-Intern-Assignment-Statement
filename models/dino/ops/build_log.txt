@@ -1,0 +1,78 @@
+running build
+running build_py
+running build_ext
+/usr/local/lib/python3.10/dist-packages/torch/utils/cpp_extension.py:495: UserWarning: Attempted to use ninja as the BuildExtension backend but we could not find ninja.. Falling back to using the slow distutils backend.
+  warnings.warn(msg.format('we could not find ninja.'))
+/usr/local/lib/python3.10/dist-packages/torch/utils/cpp_extension.py:414: UserWarning: The detected CUDA version (12.2) has a minor version mismatch with the version that was used to compile PyTorch (12.1). Most likely this shouldn't be a problem.
+  warnings.warn(CUDA_MISMATCH_WARN.format(cuda_str_version, torch.version.cuda))
+/usr/local/lib/python3.10/dist-packages/torch/utils/cpp_extension.py:424: UserWarning: There are no x86_64-linux-gnu-g++ version bounds defined for CUDA version 12.2
+  warnings.warn(f'There are no {compiler_name} version bounds defined for CUDA version {cuda_str_version}')
+running install
+/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` directly.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: EasyInstallDeprecationWarning: easy_install command is deprecated.
+!!
+
+        ********************************************************************************
+        Please avoid running ``setup.py`` and ``easy_install``.
+        Instead, use pypa/build, pypa/installer or other
+        standards-based tools.
+
+        See https://github.com/pypa/setuptools/issues/917 for details.
+        ********************************************************************************
+
+!!
+  self.initialize_options()
+running bdist_egg
+running egg_info
+writing MultiScaleDeformableAttention.egg-info/PKG-INFO
+writing dependency_links to MultiScaleDeformableAttention.egg-info/dependency_links.txt
+writing top-level names to MultiScaleDeformableAttention.egg-info/top_level.txt
+reading manifest file 'MultiScaleDeformableAttention.egg-info/SOURCES.txt'
+writing manifest file 'MultiScaleDeformableAttention.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/modules
+copying build/lib.linux-x86_64-cpython-310/modules/ms_deform_attn.py -> build/bdist.linux-x86_64/egg/modules
+copying build/lib.linux-x86_64-cpython-310/modules/__init__.py -> build/bdist.linux-x86_64/egg/modules
+creating build/bdist.linux-x86_64/egg/functions
+copying build/lib.linux-x86_64-cpython-310/functions/__init__.py -> build/bdist.linux-x86_64/egg/functions
+copying build/lib.linux-x86_64-cpython-310/functions/ms_deform_attn_func.py -> build/bdist.linux-x86_64/egg/functions
+copying build/lib.linux-x86_64-cpython-310/MultiScaleDeformableAttention.cpython-310-x86_64-linux-gnu.so -> build/bdist.linux-x86_64/egg
+byte-compiling build/bdist.linux-x86_64/egg/modules/ms_deform_attn.py to ms_deform_attn.cpython-310.pyc
+byte-compiling build/bdist.linux-x86_64/egg/modules/__init__.py to __init__.cpython-310.pyc
+byte-compiling build/bdist.linux-x86_64/egg/functions/__init__.py to __init__.cpython-310.pyc
+byte-compiling build/bdist.linux-x86_64/egg/functions/ms_deform_attn_func.py to ms_deform_attn_func.cpython-310.pyc
+creating stub loader for MultiScaleDeformableAttention.cpython-310-x86_64-linux-gnu.so
+byte-compiling build/bdist.linux-x86_64/egg/MultiScaleDeformableAttention.py to MultiScaleDeformableAttention.cpython-310.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying MultiScaleDeformableAttention.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying MultiScaleDeformableAttention.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying MultiScaleDeformableAttention.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying MultiScaleDeformableAttention.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+writing build/bdist.linux-x86_64/egg/EGG-INFO/native_libs.txt
+zip_safe flag not set; analyzing archive contents...
+__pycache__.MultiScaleDeformableAttention.cpython-310: module references __file__
+creating 'dist/MultiScaleDeformableAttention-1.0-py3.10-linux-x86_64.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing MultiScaleDeformableAttention-1.0-py3.10-linux-x86_64.egg
+removing '/usr/local/lib/python3.10/dist-packages/MultiScaleDeformableAttention-1.0-py3.10-linux-x86_64.egg' (and everything under it)
+creating /usr/local/lib/python3.10/dist-packages/MultiScaleDeformableAttention-1.0-py3.10-linux-x86_64.egg
+Extracting MultiScaleDeformableAttention-1.0-py3.10-linux-x86_64.egg to /usr/local/lib/python3.10/dist-packages
+Adding MultiScaleDeformableAttention 1.0 to easy-install.pth file
+
+Installed /usr/local/lib/python3.10/dist-packages/MultiScaleDeformableAttention-1.0-py3.10-linux-x86_64.egg
+Processing dependencies for MultiScaleDeformableAttention==1.0
+Finished processing dependencies for MultiScaleDeformableAttention==1.0
